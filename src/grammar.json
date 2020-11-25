@@ -1,5 +1,5 @@
 {
-  "name": "mem",
+  "name": "tasks",
   "rules": {
     "file": {
       "type": "REPEAT",
