@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: 'mem',
+  name: 'tasks',
 
   rules: {
     file: $ => repeat($.item),
