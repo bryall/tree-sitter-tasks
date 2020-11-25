@@ -1,11 +1,14 @@
-# tree-sitter-mem
+# tree-sitter-task
+
+
+Based off [vigoux/tree-sitter-mem](https://github.com/vigoux/tree-sitter-mem)
 
 This is a simple parser for a markup language I came up for my TODOs.
 
 I built it to be used with neovim, and a plugin (will write it at some point) to add a manipulate
 the TODOs easily. I built it with the Zettelkasten method in mind (no tag support for now though).
 
-Here is an example `mem` file :
+Here is an example `task` file :
 
 ```
 + SCHEDULED(2000-04-12) &test: My super duper thing {

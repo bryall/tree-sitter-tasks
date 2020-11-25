@@ -35,16 +35,6 @@
     "type": "date",
     "named": true,
     "fields": {
-      "day": {
-        "multiple": false,
-        "required": false,
-        "types": []
-      },
-      "month": {
-        "multiple": false,
-        "required": false,
-        "types": []
-      },
       "year": {
         "multiple": false,
         "required": true,

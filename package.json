@@ -1,5 +1,5 @@
 {
-  "name": "tree-sitter-mem",
+  "name": "tree-sitter-task",
   "version": "0.1.0",
   "description": "A tree-sitter parser for my todo markup",
   "main": "index.js",
@@ -10,12 +10,12 @@
     "tree-sitter",
     "todo"
   ],
-  "author": "Thomas Vigouroux",
+  "author": "Thomas Vigouroux, Brian Ryall",
   "license": "Apache-2.0",
   "dependencies": {
     "nan": "^2.14.1"
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.16.9"
+    "tree-sitter-cli": "^0.17.3"
   }
 }
