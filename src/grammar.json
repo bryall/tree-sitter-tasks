@@ -192,6 +192,10 @@
           "value": "DONE"
         },
         {
+          "type": "STRING",
+          "value": "WAITING"
+        },
+        {
           "type": "SEQ",
           "members": [
             {

@@ -38,6 +38,7 @@ module.exports = grammar({
             'TODO',
             'DOING',
             'DONE',
+            'WAITING',
             seq('SCHEDULED(', $.date, ')'),
             seq('DUE(', $.date, ')'),
             seq('DO(', $.date, ')')
