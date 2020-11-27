@@ -380,8 +380,8 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'T') ADVANCE(24);
       if (lookahead == '{') ADVANCE(39);
       if (lookahead == '}') ADVANCE(40);
-      if (lookahead == 'M' ||
-          lookahead == 'Y') ADVANCE(53);
+      if (lookahead == 'm' ||
+          lookahead == 'y') ADVANCE(53);
       if (lookahead == '\t' ||
           lookahead == '\n' ||
           lookahead == '\r' ||

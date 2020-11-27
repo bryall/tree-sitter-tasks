@@ -257,7 +257,7 @@
         },
         {
           "type": "PATTERN",
-          "value": "[YM]"
+          "value": "[ym]"
         },
         {
           "type": "STRING",
