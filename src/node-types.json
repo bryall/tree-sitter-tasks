@@ -175,11 +175,19 @@
     "named": false
   },
   {
+    "type": "DO(",
+    "named": false
+  },
+  {
     "type": "DOING",
     "named": false
   },
   {
     "type": "DONE",
+    "named": false
+  },
+  {
+    "type": "DUE(",
     "named": false
   },
   {
