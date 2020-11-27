@@ -96,6 +96,10 @@
           "named": true
         },
         {
+          "type": "repeat",
+          "named": true
+        },
+        {
           "type": "status",
           "named": true
         },
@@ -108,6 +112,11 @@
   },
   {
     "type": "reference",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "repeat",
     "named": true,
     "fields": {}
   },
@@ -188,6 +197,10 @@
   },
   {
     "type": "DUE(",
+    "named": false
+  },
+  {
+    "type": "REPEAT(",
     "named": false
   },
   {

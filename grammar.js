@@ -9,7 +9,7 @@ module.exports = grammar({
             optional($.status),
             optional(field('id', $.reference)),
             optional($.tag_list),
-            optional($.repeat)
+            optional($.repeat),
             ':',
             field('title', $.text),
             optional($.body),
@@ -41,6 +41,13 @@ module.exports = grammar({
             seq('SCHEDULED(', $.date, ')'),
             seq('DUE(', $.date, ')'),
             seq('DO(', $.date, ')')
+        ),
+
+        repeat: $ => seq(
+            'REPEAT(',
+            /[\d]+/,
+            /[YM]/,
+            ')'
         ),
 
         date: $ => seq(

@@ -56,6 +56,18 @@
           ]
         },
         {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "repeat"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
           "type": "STRING",
           "value": ":"
         },
@@ -229,6 +241,27 @@
               "value": ")"
             }
           ]
+        }
+      ]
+    },
+    "repeat": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "REPEAT("
+        },
+        {
+          "type": "PATTERN",
+          "value": "[\\d]+"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[YM]"
+        },
+        {
+          "type": "STRING",
+          "value": ")"
         }
       ]
     },
